@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ví dụ về liên kết HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="top">Các loại liên kết trong HTML nha ní</h1>
+
+        <nav>
+            <a href="#absolute">Liên kết tuyệt đối</a> |
+            <a href="#relative">Liên kết tương đối</a> |
+            <a href="#image-link">Liên kết bằng hình ảnh</a>
+        </nav>
+    </header><br>
+
+    <main>
+        <section id="absolute">
+            <h2>1. Liên kết tuyệt đối</h2>
+
+            <p>Liên kết này mở website bên ngoài trong cùng tab:</p>
+
+            <a href="https://www.coursera.org" target="_self">
+                Truy cập Coursera
+            </a>
+
+            <p>Liên kết này mở website bên ngoài trong tab mới:</p>
+
+            <a href="https://www.github.com" target="_blank">
+                Mở GitHub trong tab mới
+            </a>
+        </section>
+
+        <section id="relative">
+            <h2>2. Liên kết tương đối</h2>
+
+            <p>Mở file nằm cùng thư mục:</p>
+
+            <a href="page2.html">
+                Xem trang giới thiệu
+            </a>
+
+            <p>Mở file nằm trong thư mục con:</p>
+
+            <a href="docs/contact.html">
+                Xem thông tin liên hệ
+            </a>
+        </section>
+
+        <section id="image-link">
+            <h2>3. Dùng hình ảnh làm liên kết</h2>
+
+            <p>Nhấp vào hình ảnh để mở ảnh lớn:</p>
+
+            <a href="images/donut.jpg" target="_blank">
+                <img
+                    src="images/donut.jpg"
+                    alt="Mở ảnh lớn của một chiếc bánh donut phủ chocolate"
+                    width="300"
+                >
+            </a>
+        </section>
+
+        <section>
+            <h2>4. Liên kết nội bộ</h2>
+
+            <p>
+                Liên kết nội bộ dùng dấu # để di chuyển đến một phần khác
+                trong cùng trang.
+            </p>
+
+            <a href="#top">
+                Quay lại đầu trang
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Phan Đức Hưng</p>
+    </footer>
+</body>
+</html>
