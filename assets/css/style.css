@@ -1,0 +1,20 @@
+```scss
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 {
+    color: rgb(255, 0, ```scss
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 {
+    color: blue;
+}
+```
+119);
+}
+```
